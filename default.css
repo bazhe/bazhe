@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div {margin:0px; padding:0px; border:0px;}
+body { background:url(bg.jpg) repeat-x center 56px; font-size:12px; color:#391900; font-family:"宋体";}
+h1,h2,h3,h4,h5,h6 {	font-weight:lighter; font-size:12px; }
+ul,ol,dl { list-style-type:none; }
+select,input,img,select { vertical-align:middle; }
+.left{ float:left}
+.right{ float:right}
+	/*一级导航*/
+#nav{ width:980px; height:52px; background:url(nav.jpg) no-repeat;}	
+#nav ul{ padding-left:157px; padding-top:1px;_padding-left:154px;}
+#nav ul li{ float:left; margin:0 6px;}
+#nav ul li a{ display:block; text-indent:-9999px; width:87px; height:35px; background:url(navtitle.jpg) no-repeat left top;}
+#nav  #nav1_1{ width:46px;}
+#nav  #nav1_2{ width:84px; background-position:left -38px;}
+#nav  #nav1_3{ width:82px; background-position:left -76px;}
+#nav  #nav1_4{ width:83px; background-position:left -114px;}
+#nav  #nav1_5{ width:78px; background-position:left -152px;}
+#nav  #nav1_6{ width:85px; background-position:left -190px;}
+#nav  #nav1_7{ width:84px; background-position:left -228px;}
+#nav  #nav1_8{ width:49px; background-position:left -266px;}
+/* 链接 */
+a { color:#fff0bc;outline: none; /* firefox */hide-focus: expression(this.hideFocus = true); /* ie */ text-decoration:none;}
+a:hover { color:#fff0bc; text-decoration:underline;}
+.deepred { color:#391900;}
+.deepred a { color:#391900; text-decoration:none;}
+.deepred a:hover { color:#391900; text-decoration:underline;}
+
+.container { width:1000px; height:1301px; margin:0 auto;}
+.content { width:981px; height:801px; background:url(bg02.jpg) no-repeat; padding-left:19px;}
+.con_top { width:981px; height:659px;}
+.column349 { width:349px; overflow:hidden; float:left;}
+.column270 { width:229px; overflow:hidden; float:left; padding:0 22px 0 19px;}
+.column347 { width:341px; overflow:hidden; float:left; padding-left:6px;}
+
+/* 头部 */
+.header { width:1000px; height:500px; background:url(bg01.jpg) no-repeat; position:relative;}
+.logo {}
+.prize { width:182px; height:162px; position:absolute;top:206px; left:49px; background:url(prize.jpg) no-repeat;}
+.fla { width:347px; height:264px; position:absolute; top:22px; left:653px;}
+#nav{ width:1000px; height:52px; background:url(nav1.jpg) no-repeat;}	
+
+.jrgw { width:191px; height:175px; position:absolute; top:288px; right:415px;_right:400px;}
+.xszd { width:122px; height:120px; position:absolute; top:361px; left:195px; background:url(yindao.jpg) no-repeat;}
+.zhcz { width:119px; height:120px; position:absolute; top:361px; right:202px;background:url(cz.jpg) no-repeat;}
+
+/* 轮播 */
+.lunbo { width:349px; height:220px;}
+.pic { position:relative; width:349px; height:220px;}
+.pic a { position:absolute; width:349px; height:189px; overflow:hidden; display:none;}
+.pic_b { float:right;position:relative;height:23px;margin:-31px 9px 0 0;z-index:5;}
+.pic_b a {width:23px;height:22px;float:left;display:block;overflow:hidden; background:url(page_01.jpg) no-repeat left 0;text-align:center;line-height:23px;color:#fff;cursor:pointer; margin-right:2px; font-weight:bold; text-decoration:none}
+.pic_b .current{ background:url(page_02.jpg) no-repeat left 0;}
+
+/* 新服推荐 */
+.xftj { width:330px; height:170px; padding-left:10px;}
+.xf { width:219px; height:30px; background:url(backdrop01.jpg) no-repeat; padding:2px 0 0 111px;}
+.backdrop01 { width:306px; height:117px; background:url(backdrop02.jpg) no-repeat; padding:9px 0 0 24px;}
+.recommend { width:146px; height:110px; float:left; line-height:22px; color:#410404;}
+.img { width:140px; height:80px; float:left; padding-top:12px;}
+/* 游戏特色 */
+.yxts { width:330px; height:440px; padding-left:10px;}
+.backdrop02 { width:306px; height:410px; background:url(backdrop03.jpg) no-repeat; padding:2px 10px 0 14px;}
+.backdrop02 li { width:304px; height:117px; _height:118px; padding:5px 5px 0 0;}
+
+.kszcmain { width:229px; height:331px;}
+.kszc { width:229px; height:55px; background:url(kszc.jpg) no-repeat;}
+/* 注册 */
+.login { width:229px; height:245px; padding:0 10px 0 5px;}
+.sa span{display:inline-block;}
+.wB{ color:#fff0bc; line-height:18px; padding-left:3px;}
+.wB a { color:#fff0bc; text-decoration:none; }
+.wB a:hover { color:#f6d02c; text-decoration:underline; }
+.inputStyle{width:110px; height:20px; line-height:18px; text-align:left; background:none;  border:none; color:#FFF;}
+
+.inputStyle1{width:110px; height:20px;  background:url(backdrop00.jpg) no-repeat;}
+.red{color:#fff0bc;}
+.hs{color:#e2c3ab;}
+.yzm{width:55px;}
+.btn { width:229px; height:43px;}
+/* 原画截图 */
+.yhjt { width:229px; overflow:hidden;}
+.backdrop03 { width:169px; height:40px; background:url(backdrop04.jpg) no-repeat; padding:11px 0 0 60px;}
+.yhbor { width:204px; height:129px; margin:11px 14px 0 11px; background:url(bor2.jpg) no-repeat;}
+.yhbor img { width:198px; height:123px; padding:3px;}
+#yh { width:42px; height:22px; float:left; cursor:pointer}
+#jt { width:42px; height:22px; float:left; margin-left:19px; cursor:pointer; background:url(jt.jpg) no-repeat;}
+#jt.hover{ background:url(yt_a.jpg) no-repeat;}
+.more { width:204px; height:27px; padding:13px 0 0 11px;}
+
+.backdrop03 li{ background:url(yh.jpg) no-repeat; text-indent:-9999px;}
+.backdrop03 li.hover{ background:url(yh_a.jpg) no-repeat;}
+
+/*客户端下载*/
+.khdxz { width:293px; height:205px; padding:15px 25px 0 23px;}
+.khdnav { width:92px; height:27px; background:url(khd.jpg) no-repeat;}
+.client { width:293px; line-height:20px; padding-top:10px; color:#391900;}
+.client a { color:#391900; text-decoration:underline;}
+.client a:hover { color:#724430; text-decoration:underline;}
+
+.download { width:293px; height:36px; margin-top:10px;}
+.download li { width:91px; height:36px; float:left; padding-right:6px;}
+/* 补丁 */
+.patch { width:341px; height:222px;}
+.backdrop04 { width:282px; height:163px; background:url(backdrop05.jpg) no-repeat; padding:18px 25px 0 23px; color:#391900; line-height:20px;}
+.backdrop04 a { color:#391900; text-decoration:underline;}
+.backdrop04 a:hover { color:#724430; text-decoration:underline;}
+
+/*媒体分流下载*/
+.mt_download { width:341px; height:239px;}
+.backdrop05 { width:279px; height:190px; background:url(backdrop06.jpg) no-repeat; padding:10px 25px 0 26px; color:#391900;}
+.media{ width:279px; height:190px;}
+.media ul{ line-height:23px;}
+.media  .img{ height:1px; margin:5px auto; line-height:1px;}
+p{ border-bottom:1px #8f0000 dashed;}
+.footer {width:520x; height:60px;margin:52px 0 0 301px; line-height:20px; color:#301c11;}
+.footer .regimg{ display:inline-block; width:40px; height:60px; float:left}
+.footer p{ float:left; padding-top:3px; border-bottom:0}
+
+
+

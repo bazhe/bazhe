@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/*顶级样式*/
+html,body{ font-family:"宋体"; font-size:12px;line-height:24px;color:#111100 }
+*{ margin:0; padding:0}
+ul li,ol li{ list-style:none}
+img{ border:0}
+.left{ float:left}
+.right{ float:right}
+.clear{ clear:both; font-size:0px; line-height:0px;}
+a{ text-decoration:none; color:#111100}
+a:hiver{ text-decoration:none}
+/*顶部导航*/
+.topnav{ height:56px; background: url(top_nav.jpg) repeat-x left top;}
+.topnav .topnav_cont{ width:1023px; height:56px; margin:0 auto}
+
+
+.topnav .topnav_cont .topnav_left{ float:left; height:56px;_width:499px;}
+.topnav .topnav_cont .topnav_left img{ margin-left:42px; margin-top:7px;}
+.topnav .topnav_cont .topnav_left .link{ margin-left:40px; margin-top:8px;}
+.topnav .topnav_cont .topnav_left .wu{ height:20px; background:url(wu.jpg) no-repeat left 0px; padding-left:27px; margin-left:20px; display:block; float:left; line-height:24px}
+.topnav .topnav_cont .topnav_left .shen{ height:20px; background:url(shen.jpg) no-repeat left 0; padding-left:27px; margin-left:12px;display:block;float:left;line-height:24px}
+.topnav .topnav_cont .topnav_left .shuihu{ height:20px; background:url(shuihu.jpg) no-repeat left 0; padding-left:27px; margin-left:12px;display:block;float:left;line-height:24px}
+
+.topnav .topnav_cont .topnav_left .gunong{ margin-left:20px;}
+.topnav .topnav_cont .topnav_left .gunong a{ text-decoration:underline;color:#FE0000}
+
+.topnav .topnav_cont .topnav_right{ float:right; height:77px;}
+.topnav .topnav_cont .topnav_right .register li{ float:left}
+.topnav .topnav_cont .topnav_right .register .register_l{ width:33px; height:27px; background:url(register_l.gif) no-repeat left top;}
+.topnav .topnav_cont .topnav_right .register .register_c{ width:auto; height:27px; background:url(register_c.gif) repeat-x left top; line-height:27px;}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_1,.ico1_2,.ico1_3,.ico1_4{ margin-left:12px;}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_1{ height:27px; background:url(ico1_1.jpg) no-repeat left 45%; padding-left:20px; display:block; float:left}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_2{ background:url(ico1_2.jpg) no-repeat left 45%;padding-left:20px;height:27px; display:block; float:left}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_3{ background:url(ico1_3.jpg) no-repeat left 45%;padding-left:20px;height:27px; display:block; float:left}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_4{ background:url(ico1_4.jpg) no-repeat left 45%;padding-left:20px;height:27px; display:block; float:left}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_5{ background:url(ico1_5.jpg) no-repeat left 45%;padding-left:30px;height:27px; display:block; float:left; margin-left:7px;}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_4 a, .ico1_3 a, .ico1_2 a, .ico1_1 a, .ico1_5 a{color:#fff}
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_4 a:hover,
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_3 a:hover, 
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_2 a:hover,
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_5 a:hover,
+.topnav .topnav_cont .topnav_right .register .register_c .ico1_1 a:hover
+{ text-decoration:underline; color:#FFF;}
+.topnav .topnav_cont .topnav_right .register .register_r{ width:33px; height:27px; background:url(register_r.gif) no-repeat left top;}
+
+.button{ width:76px; height:21px; background:url(button1.jpg) no-repeat left top; color:#000; border:0; line-height:21px; display:block; text-align:center}
+.button2{ width:76px; height:21px; background:url(button2.jpg) no-repeat left top; color:#000;line-height:21px; display:block; text-align:center}
+.mt7{ margin-top:0px;}
+
+/*滚动*/
+.wenchuan{ overflow:hidden; height:21px;display:block;height:24px;}
+.wenchuan li{overflow:hidden;display:block; height:21px; line-height:21px; width:253px; *margin-left:-16px;}	
+.jzjh{ background:url(jzjh.jpg) no-repeat left top; width:105px; height:53px; margin-top:1px;}
